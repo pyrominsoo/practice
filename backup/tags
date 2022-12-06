@@ -1,0 +1,590 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/mkim/Dropbox/practice/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/0673dacf/
+$(BUILDDIR)/%.$(OBJEXT)	chess/Makefile	/^$(BUILDDIR)\/%.$(OBJEXT): $(SRCDIR)\/%.$(SRCEXT)$/;"	t
+$(BUILD_DIR)/$(TARGET_EXEC)	curr/Makefile	/^$(BUILD_DIR)\/$(TARGET_EXEC): $(OBJS)$/;"	t
+$(BUILD_DIR)/%.c.o	curr/Makefile	/^$(BUILD_DIR)\/%.c.o: %.c$/;"	t
+$(BUILD_DIR)/%.cpp.o	curr/Makefile	/^$(BUILD_DIR)\/%.cpp.o: %.cpp$/;"	t
+$(BUILD_DIR)/%.s.o	curr/Makefile	/^$(BUILD_DIR)\/%.s.o: %.s$/;"	t
+$(TARGET)	chess/Makefile	/^$(TARGET): $(OBJECTS)$/;"	t
+%.d	old/longest_palin/Makefile	/^%.d: %.c$/;"	t
+*.tcc	chess/.vscode/settings.json	/^        "*.tcc": "cpp",$/;"	s	object:files.associations
+0	chess/.vscode/launch.json	/^                {$/;"	o	array:configurations.0.setupCommands
+0	chess/.vscode/launch.json	/^        {$/;"	o	array:configurations
+0	chess/.vscode/settings.json	/^            "makeArgs": ["--version"]$/;"	s	array:makefile.configurations.1.makeArgs
+0	chess/.vscode/settings.json	/^        {$/;"	o	array:makefile.configurations
+0	chess/.vscode/settings.json	/^        {$/;"	o	array:makefile.launchConfigurations
+0	chess/.vscode/tasks.json	/^                "$gcc"$/;"	s	array:tasks.0.problemMatcher
+0	chess/.vscode/tasks.json	/^                "-fdiagnostics-color=always",$/;"	s	array:tasks.0.args
+0	chess/.vscode/tasks.json	/^        {$/;"	o	array:tasks
+0	vscode/.vscode/launch.json	/^                {$/;"	o	array:configurations.0.setupCommands
+0	vscode/.vscode/launch.json	/^        {$/;"	o	array:configurations
+0	vscode/.vscode/tasks.json	/^                "$gcc"$/;"	s	array:tasks.0.problemMatcher
+0	vscode/.vscode/tasks.json	/^                "-fdiagnostics-color=always",$/;"	s	array:tasks.0.args
+0	vscode/.vscode/tasks.json	/^        {$/;"	o	array:tasks
+1	chess/.vscode/settings.json	/^        {$/;"	o	array:makefile.configurations
+1	chess/.vscode/tasks.json	/^                "-g",$/;"	s	array:tasks.0.args
+1	vscode/.vscode/tasks.json	/^                "-g",$/;"	s	array:tasks.0.args
+2	chess/.vscode/tasks.json	/^                "${file}",$/;"	s	array:tasks.0.args
+2	vscode/.vscode/tasks.json	/^                "${file}",$/;"	s	array:tasks.0.args
+3	chess/.vscode/tasks.json	/^                "-o",$/;"	s	array:tasks.0.args
+3	vscode/.vscode/tasks.json	/^                "-o",$/;"	s	array:tasks.0.args
+4	chess/.vscode/tasks.json	/^                "${fileDirname}\/${fileBasenameNoExtension}"$/;"	s	array:tasks.0.args
+4	vscode/.vscode/tasks.json	/^                "${fileDirname}\/${fileBasenameNoExtension}"$/;"	s	array:tasks.0.args
+BOARD_HEIGHT	chess/src/chessparam.h	/^#define BOARD_HEIGHT /;"	d
+BOARD_WIDTH	chess/src/chessparam.h	/^#define BOARD_WIDTH /;"	d
+BUILDDIR	chess/Makefile	/^BUILDDIR    := obj$/;"	m
+BUILD_DIR	curr/Makefile	/^BUILD_DIR ?= .\/build$/;"	m
+BigInt	old/min_sum.cpp	/^class BigInt {$/;"	c	file:
+Bishop	chess/src/piece.h	/^        Bishop(Color color) :  Piece(color, bishop) {$/;"	f	class:Bishop
+Bishop	chess/src/piece.h	/^class Bishop : public Piece {$/;"	c
+Board	chess/src/board.h	/^        Board() {$/;"	f	class:Board
+Board	chess/src/board.h	/^class Board {$/;"	c
+CC	chess/Makefile	/^CC          := g++$/;"	m
+CC	old/longest_palin/Makefile	/^CC=g++$/;"	m
+CFLAGS	chess/Makefile	/^CFLAGS      := -Wall -O0 -g $/;"	m
+CHESSPARAM_H	chess/src/chessparam.h	/^#define CHESSPARAM_H$/;"	d
+CPPFLAGS	curr/Makefile	/^CPPFLAGS ?= $(INC_FLAGS) -MMD -MP$/;"	m
+CircleArray	old/old_page_lru.cpp	/^CircleArray<T>::CircleArray(unsigned int cap) {$/;"	f	class:CircleArray
+CircleArray	old/old_page_lru.cpp	/^class CircleArray {$/;"	c	file:
+Color	chess/src/piece.h	/^enum Color{$/;"	g
+CompareNode	old/huffman_encoding.cpp	/^class CompareNode {$/;"	c	file:
+Count_one	old/count_one_grid.cpp	/^        Count_one(bool** grid, int n, int m) {$/;"	f	class:Count_one	file:
+Count_one	old/count_one_grid.cpp	/^class Count_one {$/;"	c	file:
+DEPEXT	chess/Makefile	/^DEPEXT      := d$/;"	m
+DEPS	curr/Makefile	/^DEPS := $(OBJS:.o=.d)$/;"	m
+DblBoardBool	chess/src/board.h	/^        DblBoardBool() {$/;"	f	class:DblBoardBool
+DblBoardBool	chess/src/board.h	/^class DblBoardBool {$/;"	c
+Game	chess/src/game.h	/^        Game(int id, std::string name) : id{id}, name{name} {$/;"	f	class:Game
+Game	chess/src/game.h	/^class Game$/;"	c
+GameBoard	chess/chessboard_tkinter.py	/^class GameBoard(tk.Frame):$/;"	c
+Heap	old/nearly_sorted/heap.h	/^typedef struct Heap {$/;"	s
+Heap	old/nearly_sorted/heap.h	/^} Heap;$/;"	t	typeref:struct:Heap
+HuffmanCodes	old/huffman_decode.cpp	/^void HuffmanCodes(int size)$/;"	f	typeref:typename:void
+HuffmanNode	old/huffman_encoding.cpp	/^struct HuffmanNode {$/;"	s	file:
+HuffmanTree	old/huffman_encoding.cpp	/^HuffmanTree::HuffmanTree(void) {$/;"	f	class:HuffmanTree
+HuffmanTree	old/huffman_encoding.cpp	/^class HuffmanTree {$/;"	c	file:
+INC	chess/Makefile	/^INC         := -I$(INCDIR) -I\/usr\/local\/include$/;"	m
+INCDEP	chess/Makefile	/^INCDEP      := -I$(INCDIR)$/;"	m
+INCDIR	chess/Makefile	/^INCDIR      := inc$/;"	m
+INC_DIRS	curr/Makefile	/^INC_DIRS := $(shell find $(SRC_DIRS) -type d)$/;"	m
+INC_FLAGS	curr/Makefile	/^INC_FLAGS := $(addprefix -I,$(INC_DIRS))$/;"	m
+Insert	draw_tree.py	/^    def Insert(self,parent, child,dir):$/;"	m	class:Tree
+King	chess/src/piece.h	/^        King(Color color) :  Piece(color, king) {$/;"	f	class:King
+King	chess/src/piece.h	/^class King : public Piece {$/;"	c
+Knight	chess/src/piece.h	/^        Knight(Color color) :  Piece(color, knight) {$/;"	f	class:Knight
+Knight	chess/src/piece.h	/^class Knight : public Piece {$/;"	c
+LDFLAGS	old/longest_palin/Makefile	/^LDFLAGS = $/;"	m
+LIB	chess/Makefile	/^LIB         := $/;"	m
+LevelCheck	old/leaf_lvl.cpp	/^    LevelCheck(bool val, int lvl) {$/;"	f	struct:LevelCheck	file:
+LevelCheck	old/leaf_lvl.cpp	/^struct LevelCheck {$/;"	s	file:
+MAX_TREE_HT	old/huffman_decode.cpp	/^#define MAX_TREE_HT /;"	d	file:
+MIMode	chess/.vscode/launch.json	/^            "MIMode": "gdb",$/;"	s	object:configurations.0
+MIMode	vscode/.vscode/launch.json	/^            "MIMode": "gdb",$/;"	s	object:configurations.0
+MKDIR_P	curr/Makefile	/^MKDIR_P ?= mkdir -p$/;"	m
+MinHeapNode	old/huffman_decode.cpp	/^	MinHeapNode(char data, int freq)$/;"	f	struct:MinHeapNode	file:
+MinHeapNode	old/huffman_decode.cpp	/^struct MinHeapNode$/;"	s	file:
+NUM_PIECE	chess/src/chessparam.h	/^#define NUM_PIECE /;"	d
+NUM_POS	chess/src/chessparam.h	/^#define NUM_POS /;"	d
+NUM_SQUARE	chess/src/chessparam.h	/^#define NUM_SQUARE /;"	d
+Node	draw_tree.py	/^class Node:$/;"	c
+Node	old/bottomview/bottomview.cpp	/^    Node(int key)$/;"	f	struct:Node	file:
+Node	old/bottomview/bottomview.cpp	/^struct Node$/;"	s	file:
+Node	old/bst_check/bst_check.cpp	/^    Node(int x){$/;"	f	struct:Node	file:
+Node	old/bst_check/bst_check.cpp	/^struct Node {$/;"	s	file:
+Node	old/even_odd.cpp	/^struct Node$/;"	s	file:
+Node	old/iso_tree.cpp	/^struct Node{$/;"	s	file:
+Node	old/iso_tree_two.cpp	/^struct Node{$/;"	s	file:
+Node	old/leaf_lvl.cpp	/^struct Node$/;"	s	file:
+Node	old/leftview.cpp	/^    Node(int x){$/;"	f	struct:Node	file:
+Node	old/leftview.cpp	/^struct Node$/;"	s	file:
+Node	old/rightview.cpp	/^    Node(int x){$/;"	f	struct:Node	file:
+Node	old/rightview.cpp	/^struct Node$/;"	s	file:
+Node	old/topview/topview.cpp	/^    Node(int x){$/;"	f	struct:Node	file:
+Node	old/topview/topview.cpp	/^struct Node$/;"	s	file:
+OBJECTS	chess/Makefile	/^OBJECTS     := $(patsubst $(SRCDIR)\/%,$(BUILDDIR)\/%,$(SOURCES:.$(SRCEXT)=.$(OBJEXT)))$/;"	m
+OBJEXT	chess/Makefile	/^OBJEXT      := o$/;"	m
+OBJS	curr/Makefile	/^OBJS := $(SRCS:%=$(BUILD_DIR)\/%.o)$/;"	m
+Pawn	chess/src/piece.h	/^        Pawn(Color color) :  Piece(color, pawn) {$/;"	f	class:Pawn
+Pawn	chess/src/piece.h	/^class Pawn : public Piece {$/;"	c
+Piece	chess/src/piece.h	/^        Piece(Color color, PieceType type) {$/;"	f	class:Piece
+Piece	chess/src/piece.h	/^class Piece$/;"	c
+PieceID	chess/src/game.h	/^    enum PieceID {$/;"	g	class:Game
+PieceType	chess/src/piece.h	/^enum PieceType {$/;"	g
+PosMov	chess/src/position.h	/^	class PosMov$/;"	c	class:Position
+PosMov	chess/src/position.h	/^            PosMov( ) {$/;"	f	class:Position::PosMov
+Position	chess/src/position.cpp	/^Position::Position(void)$/;"	f	class:Position
+Position	chess/src/position.h	/^class Position$/;"	c
+Queen	chess/src/piece.h	/^        Queen(Color color) :  Piece(color, queen) {$/;"	f	class:Queen
+Queen	chess/src/piece.h	/^class Queen : public Piece {$/;"	c
+Rook	chess/src/piece.h	/^        Rook(Color color) :  Piece(color, rook) {$/;"	f	class:Rook
+Rook	chess/src/piece.h	/^class Rook : public Piece {$/;"	c
+SOURCES	chess/Makefile	/^SOURCES     := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))$/;"	m
+SRCDIR	chess/Makefile	/^SRCDIR      := src$/;"	m
+SRCEXT	chess/Makefile	/^SRCEXT      := cpp$/;"	m
+SRCS	curr/Makefile	/^SRCS := $(shell find $(SRC_DIRS) -name *.cpp -or -name *.c -or -name *.s)$/;"	m
+SRC_DIRS	curr/Makefile	/^SRC_DIRS ?= .\/src$/;"	m
+Solution	old/bin_search.cpp	/^class Solution {$/;"	c	file:
+Solution	old/count_tree_nodes.cpp	/^class Solution {$/;"	c	file:
+Solution	old/fibonacci.cpp	/^class Solution {$/;"	c	file:
+Solution	old/longest_duplicate_substr.cpp	/^class Solution {$/;"	c	file:
+Solution	old/median_array.cpp	/^class Solution {$/;"	c	file:
+Solution	old/reg_exp.cpp	/^class Solution {$/;"	c	file:
+Solution	old/sum_left_leaf.cpp	/^class Solution {$/;"	c	file:
+Solution	old/two_sum.cpp	/^class Solution {$/;"	c	file:
+Solution	old/valid_parenth.cpp	/^class Solution {$/;"	c	file:
+TARGETDIR	chess/Makefile	/^TARGETDIR   := bin$/;"	m
+TARGET_EXEC	curr/Makefile	/^TARGET_EXEC ?= a.out$/;"	m
+Tree	draw_tree.py	/^class Tree:$/;"	c
+TreeDraw	draw_tree.py	/^class TreeDraw(turtle.Turtle):$/;"	c
+TreeNode	old/count_tree_nodes.cpp	/^  TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	file:
+TreeNode	old/count_tree_nodes.cpp	/^struct TreeNode {$/;"	s	file:
+\bidentity\x12\x11Identity:output:0*	tensorflow/my_model/saved_model.pb	/^identityIdentity:output:0*:$/;"	l
+\x01T\x12\x04type	tensorflow/my_model/saved_model.pb	/^Ttype:	$/;"	l
+\x02	tensorflow/my_model/saved_model.pb	/^:$/;"	l
+\x1Cdense/BiasAdd/ReadVariableOp\x12\x1Cdense/BiasAdd/ReadVariableOp2	tensorflow/my_model/saved_model.pb	/^dense\/BiasAdd\/ReadVariableOpdense\/BiasAdd\/ReadVariableOp2:$/;"	l
+_BOARD_H_	chess/src/board.h	/^#define _BOARD_H_$/;"	d
+_GAME_H	chess/src/game.h	/^#define _GAME_H$/;"	d
+_HEAP_	old/nearly_sorted/heap.h	/^#define _HEAP_$/;"	d
+_PIECE_H_	chess/src/piece.h	/^#define _PIECE_H_$/;"	d
+_POSITION_H_	chess/src/position.h	/^#define _POSITION_H_$/;"	d
+__dbg_h__	chess/src/dbg.h	/^#define __dbg_h__$/;"	d
+__dbg_h__	old/nearly_sorted/dbg.h	/^#define __dbg_h__$/;"	d
+__init__	chess/chessboard_tkinter.py	/^    def __init__(self, parent, rows=8, columns=8, size=32, color1="white", color2="blue"):$/;"	m	class:GameBoard
+__init__	draw_tree.py	/^    def __init__(self):$/;"	m	class:Tree
+__init__	draw_tree.py	/^    def __init__(self):$/;"	m	class:TreeDraw
+__init__	draw_tree.py	/^    def __init__(self,val):$/;"	m	class:Node
+a	draw_tree.py	/^        a = raw_input().strip().split()$/;"	v
+addpiece	chess/chessboard_tkinter.py	/^    def addpiece(self, name, image, row=0, column=0):$/;"	m	class:GameBoard
+all	chess/Makefile	/^all: $(TARGET)$/;"	t
+ar	old/nearly_sorted/heap.h	/^    int* ar;$/;"	m	struct:Heap	typeref:typename:int *
+args	chess/.vscode/launch.json	/^            "args": [],$/;"	a	object:configurations.0
+args	chess/.vscode/tasks.json	/^            "args": [$/;"	a	object:tasks.0
+args	vscode/.vscode/launch.json	/^            "args": [],$/;"	a	object:configurations.0
+args	vscode/.vscode/tasks.json	/^            "args": [$/;"	a	object:tasks.0
+array	old/old_page_lru.cpp	/^        T* array;$/;"	m	class:CircleArray	typeref:typename:T *	file:
+att_list	dnd_roll20.py	/^att_list = ["Str","Dex","Con","Int","Wis","Cha"]$/;"	v
+begin	old/old_page_lru.cpp	/^        unsigned int begin;$/;"	m	class:CircleArray	typeref:typename:unsigned int	file:
+binaryArgs	chess/.vscode/settings.json	/^            "binaryArgs": []$/;"	a	object:makefile.launchConfigurations.0
+binaryPath	chess/.vscode/settings.json	/^            "binaryPath": "\/home\/mkim\/Dropbox\/practice\/chess\/bin\/program",$/;"	s	object:makefile.launchConfigurations.0
+bishop	chess/src/piece.h	/^    bishop = 3,$/;"	e	enum:PieceType
+bishop1	chess/src/game.h	/^        bishop1 = 10,$/;"	e	enum:Game::PieceID
+bishop2	chess/src/game.h	/^        bishop2 = 11,$/;"	e	enum:Game::PieceID
+black	chess/src/piece.h	/^    black = 1$/;"	e	enum:Color
+blacks	chess/src/game.h	/^        Piece* blacks[NUM_PIECE];$/;"	m	class:Game	typeref:typename:Piece * []
+board	chess/chessboard_tkinter.py	/^    board = GameBoard(root)$/;"	v
+board	chess/src/position.h	/^	Board<Piece*> board;$/;"	m	class:Position	typeref:typename:Board<Piece * >
+bottomView	old/bottomview/bottomview.cpp	/^void bottomView(Node *root)$/;"	f	typeref:typename:void
+build	old/huffman_encoding.cpp	/^void HuffmanTree::build(void) {$/;"	f	class:HuffmanTree	typeref:typename:void
+calcFreq	old/huffman_decode.cpp	/^void calcFreq(string str, int n)$/;"	f	typeref:typename:void
+cap	old/old_page_lru.cpp	/^        unsigned int cap;$/;"	m	class:CircleArray	typeref:typename:unsigned int	file:
+cap_unit	old/nearly_sorted/heap.h	/^    unsigned int cap_unit;$/;"	m	struct:Heap	typeref:typename:unsigned int
+capacity	old/nearly_sorted/heap.h	/^    unsigned int capacity;$/;"	m	struct:Heap	typeref:typename:unsigned int
+captured	chess/src/piece.h	/^        bool captured;$/;"	m	class:Piece	typeref:typename:bool
+ccsrc	old/longest_palin/Makefile	/^ccsrc = $(wildcard *.cc)$/;"	m
+check	chess/src/dbg.h	/^#define check(/;"	d
+check	old/leaf_lvl.cpp	/^bool check(Node *root)$/;"	f	typeref:typename:bool
+check	old/nearly_sorted/dbg.h	/^#define check(/;"	d
+check_debug	chess/src/dbg.h	/^#define check_debug(/;"	d
+check_debug	old/nearly_sorted/dbg.h	/^#define check_debug(/;"	d
+check_mem	chess/src/dbg.h	/^#define check_mem(/;"	d
+check_mem	old/nearly_sorted/dbg.h	/^#define check_mem(/;"	d
+child	draw_tree.py	/^            child = int(a[i + 1])$/;"	v
+chk_empty	chess/src/position.cpp	/^bool Position::chk_empty(int x, int y)$/;"	f	class:Position	typeref:typename:bool
+chk_same_color	chess/src/position.h	/^    bool chk_same_color(int s_x,int s_y,int t_x,int t_y) {$/;"	f	class:Position	typeref:typename:bool
+chk_same_coord	chess/src/position.cpp	/^static bool chk_same_coord(int s_x, int s_y, int t_x, int t_y) {$/;"	f	typeref:typename:bool	file:
+chk_valid_move	chess/src/position.cpp	/^bool Position::chk_valid_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Position	typeref:typename:bool
+clean	chess/Makefile	/^clean:$/;"	t
+clean	curr/Makefile	/^clean:$/;"	t
+clean	old/longest_palin/Makefile	/^clean:$/;"	t
+clean_errno	chess/src/dbg.h	/^#define clean_errno(/;"	d
+clean_errno	old/nearly_sorted/dbg.h	/^#define clean_errno(/;"	d
+cleandep	old/longest_palin/Makefile	/^cleandep:$/;"	t
+cleaner	chess/Makefile	/^cleaner: clean$/;"	t
+codes	old/huffman_decode.cpp	/^map<char, string> codes;$/;"	v	typeref:typename:map<char,string>
+color	chess/src/piece.h	/^        Color color;$/;"	m	class:Piece	typeref:typename:Color
+command	chess/.vscode/tasks.json	/^            "command": "\/usr\/bin\/g++",$/;"	s	object:tasks.0
+command	vscode/.vscode/tasks.json	/^            "command": "\/usr\/bin\/g++",$/;"	s	object:tasks.0
+compare	old/huffman_decode.cpp	/^struct compare$/;"	s	file:
+configurations	chess/.vscode/launch.json	/^    "configurations": [$/;"	a
+configurations	vscode/.vscode/launch.json	/^    "configurations": [$/;"	a
+converter	tensorflow/convert.py	/^converter = tf.lite.TFLiteConverter.from_saved_model(".\/my_model")$/;"	v
+copy_board	chess/src/position.cpp	/^void Position::copy_board(Position* pos)$/;"	f	class:Position	typeref:typename:void
+countNodes	old/count_tree_nodes.cpp	/^    int countNodes(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:int	file:
+count_table	old/count_one_grid.cpp	/^        int** count_table;$/;"	m	class:Count_one	typeref:typename:int **	file:
+count_to_coord	old/count_one_grid.cpp	/^int Count_one::count_to_coord(int x1, int y1) {$/;"	f	class:Count_one	typeref:typename:int
+cppsrc	old/longest_palin/Makefile	/^cppsrc = $(wildcard *.cpp)$/;"	m
+create_pieces	chess/src/game.cpp	/^void Game::create_pieces() $/;"	f	class:Game	typeref:typename:void
+cwd	chess/.vscode/launch.json	/^            "cwd": "${fileDirname}",$/;"	s	object:configurations.0
+cwd	chess/.vscode/settings.json	/^            "cwd": "\/home\/mkim\/Dropbox\/practice\/chess\/bin",$/;"	s	object:makefile.launchConfigurations.0
+cwd	chess/.vscode/tasks.json	/^                "cwd": "${fileDirname}"$/;"	s	object:tasks.0.options
+cwd	vscode/.vscode/launch.json	/^            "cwd": "${fileDirname}",$/;"	s	object:configurations.0
+cwd	vscode/.vscode/tasks.json	/^                "cwd": "${fileDirname}"$/;"	s	object:tasks.0.options
+data	old/bottomview/bottomview.cpp	/^    int data; \/\/data of the node$/;"	m	struct:Node	typeref:typename:int	file:
+data	old/bst_check/bst_check.cpp	/^    int data;$/;"	m	struct:Node	typeref:typename:int	file:
+data	old/even_odd.cpp	/^    int data;$/;"	m	struct:Node	typeref:typename:int	file:
+data	old/huffman_decode.cpp	/^	char data;$/;"	m	struct:MinHeapNode	typeref:typename:char	file:
+data	old/huffman_encoding.cpp	/^    char data;  \/\/ 0 represents internal nodes$/;"	m	struct:HuffmanNode	typeref:typename:char	file:
+data	old/iso_tree.cpp	/^	int data;$/;"	m	struct:Node	typeref:typename:int	file:
+data	old/iso_tree_two.cpp	/^	int data;$/;"	m	struct:Node	typeref:typename:int	file:
+data	old/leaf_lvl.cpp	/^    int data;$/;"	m	struct:Node	typeref:typename:int	file:
+data	old/leftview.cpp	/^    int data;$/;"	m	struct:Node	typeref:typename:int	file:
+data	old/rightview.cpp	/^    int data;$/;"	m	struct:Node	typeref:typename:int	file:
+data	old/topview/topview.cpp	/^    int data;$/;"	m	struct:Node	typeref:typename:int	file:
+debug	chess/src/dbg.h	/^#define debug(/;"	d
+debug	old/2d_spiral_array.cpp	/^#define debug(/;"	d	file:
+debug	old/bin_search.cpp	/^#define debug(/;"	d	file:
+debug	old/huffman_decode.cpp	/^#define debug(/;"	d	file:
+debug	old/huffman_encoding.cpp	/^#define debug(/;"	d	file:
+debug	old/longest_duplicate_substr.cpp	/^#define debug(/;"	d	file:
+debug	old/median_array.cpp	/^#define debug(/;"	d	file:
+debug	old/nearly_sorted/dbg.h	/^#define debug(/;"	d
+debug	old/old_page_lru.cpp	/^#define debug(/;"	d	file:
+debug	old/reg_exp.cpp	/^#define debug(/;"	d	file:
+debug	old/two_sum.cpp	/^#define debug(/;"	d	file:
+decodeHuffmanData	old/huffman_decode.cpp	/^string decodeHuffmanData(struct MinHeapNode* root, string binaryString)$/;"	f	typeref:typename:string
+del_all_pieces	chess/src/game.cpp	/^void Game::del_all_pieces(void)$/;"	f	class:Game	typeref:typename:void
+del_all_pos	chess/src/game.cpp	/^void Game::del_all_pos() $/;"	f	class:Game	typeref:typename:void
+dep	old/longest_palin/Makefile	/^dep = $(obj:.o=.d)  # one dependency file for each source$/;"	m
+description	chess/.vscode/launch.json	/^                    "description": "Enable pretty-printing for gdb",$/;"	s	object:configurations.0.setupCommands.0
+description	vscode/.vscode/launch.json	/^                    "description": "Enable pretty-printing for gdb",$/;"	s	object:configurations.0.setupCommands.0
+detail	chess/.vscode/tasks.json	/^            "detail": "Task generated by Debugger."$/;"	s	object:tasks.0
+detail	vscode/.vscode/tasks.json	/^            "detail": "Task generated by Debugger."$/;"	s	object:tasks.0
+digits	old/min_sum.cpp	/^        std::vector<int> digits;$/;"	m	class:BigInt	typeref:typename:std::vector<int>	file:
+dir	draw_tree.py	/^            dir = a[i + 2]$/;"	v
+directories	chess/Makefile	/^directories:$/;"	t
+dp	old/fibonacci.cpp	/^    int dp(int N) {$/;"	f	class:Solution	typeref:typename:int	file:
+drawCircle	draw_tree.py	/^    def drawCircle(self, x, y, color, radius=50):$/;"	m	class:TreeDraw
+drawEdge	draw_tree.py	/^    def drawEdge(self, p_x, p_y, c_x, c_y, color):$/;"	m	class:TreeDraw
+drawLine	draw_tree.py	/^    def drawLine(self, x, y, t_x, t_y, color):$/;"	m	class:TreeDraw
+drawOlympicSymbol	draw_tree.py	/^    def drawOlympicSymbol(self):$/;"	m	class:TreeDraw
+drawText	draw_tree.py	/^    def drawText(self, x, y, color, text):$/;"	m	class:TreeDraw
+drawTree	draw_tree.py	/^    def drawTree(self, tree):$/;"	m	class:TreeDraw
+eligible_move	chess/src/piece.cpp	/^bool Bishop::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Bishop	typeref:typename:bool
+eligible_move	chess/src/piece.cpp	/^bool King::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:King	typeref:typename:bool
+eligible_move	chess/src/piece.cpp	/^bool Knight::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Knight	typeref:typename:bool
+eligible_move	chess/src/piece.cpp	/^bool Pawn::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Pawn	typeref:typename:bool
+eligible_move	chess/src/piece.cpp	/^bool Queen::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Queen	typeref:typename:bool
+eligible_move	chess/src/piece.cpp	/^bool Rook::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Rook	typeref:typename:bool
+empty	old/old_page_lru.cpp	/^        bool empty;$/;"	m	class:CircleArray	typeref:typename:bool	file:
+end	old/old_page_lru.cpp	/^        unsigned int end;$/;"	m	class:CircleArray	typeref:typename:unsigned int	file:
+environment	chess/.vscode/launch.json	/^            "environment": [],$/;"	a	object:configurations.0
+environment	vscode/.vscode/launch.json	/^            "environment": [],$/;"	a	object:configurations.0
+eval_allposmov	chess/src/position.cpp	/^void Position::eval_allposmov(int s_x, int s_y) {$/;"	f	class:Position	typeref:typename:void
+eval_move	chess/src/position.cpp	/^bool Position::PosMov::eval_move(Position* pos,int s_x,int s_y,int t_x,int t_y)$/;"	f	class:Position::PosMov	typeref:typename:bool
+eval_move	chess/src/position.cpp	/^bool Position::eval_move(int s_x, int s_y, int t_x, int t_y)$/;"	f	class:Position	typeref:typename:bool
+evaled	chess/src/position.h	/^			DblBoardBool evaled;$/;"	m	class:Position::PosMov	typeref:typename:DblBoardBool
+externalConsole	chess/.vscode/launch.json	/^            "externalConsole": false,$/;"	b	object:configurations.0
+externalConsole	vscode/.vscode/launch.json	/^            "externalConsole": false,$/;"	b	object:configurations.0
+fib	old/fibonacci.cpp	/^    int fib(int N) {$/;"	f	class:Solution	typeref:typename:int	file:
+files.associations	chess/.vscode/settings.json	/^    "files.associations": {$/;"	o
+find	old/old_page_lru.cpp	/^int CircleArray<T>::find(T val) {$/;"	f	class:CircleArray	typeref:typename:int
+findMedianSortedArrays	old/median_array.cpp	/^    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {$/;"	f	class:Solution	typeref:typename:double	file:
+freq	old/huffman_decode.cpp	/^	int freq;$/;"	m	struct:MinHeapNode	typeref:typename:int	file:
+freq	old/huffman_decode.cpp	/^map<char, int> freq;$/;"	v	typeref:typename:map<char,int>
+freq	old/huffman_encoding.cpp	/^    int freq;$/;"	m	struct:HuffmanNode	typeref:typename:int	file:
+full	old/old_page_lru.cpp	/^bool CircleArray<T>::full(void) {$/;"	f	class:CircleArray	typeref:typename:bool
+get	chess/src/board.h	/^        T get(int x, int y) {$/;"	f	class:Board	typeref:typename:T
+get	chess/src/board.h	/^        bool get(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:DblBoardBool	typeref:typename:bool
+getLevelDiff	old/even_odd.cpp	/^int getLevelDiff(Node *root)$/;"	f	typeref:typename:int
+get_captured	chess/src/piece.h	/^        bool get_captured() { return captured; }$/;"	f	class:Piece	typeref:typename:bool
+get_color	chess/src/piece.h	/^        Color get_color() {$/;"	f	class:Piece	typeref:typename:Color
+get_color	chess/src/position.cpp	/^Color Position::get_color(int x, int y)$/;"	f	class:Position	typeref:typename:Color
+get_evaled	chess/src/position.h	/^			bool get_evaled(int s_x, int s_y, int t_x, int t_y) $/;"	f	class:Position::PosMov	typeref:typename:bool
+get_moved	chess/src/piece.h	/^        bool get_moved() {$/;"	f	class:Piece	typeref:typename:bool
+get_piece	chess/src/position.cpp	/^Piece* Position::get_piece(int x, int y)$/;"	f	class:Position	typeref:typename:Piece *
+get_posmov	chess/src/position.h	/^            bool get_posmov(int s_x, int s_y, int t_x, int t_y) $/;"	f	class:Position::PosMov	typeref:typename:bool
+get_type	chess/src/piece.h	/^        PieceType get_type() {$/;"	f	class:Piece	typeref:typename:PieceType
+grid	old/count_one_grid.cpp	/^        bool** grid;$/;"	m	class:Count_one	typeref:typename:bool **	file:
+group	chess/.vscode/tasks.json	/^            "group": {$/;"	o	object:tasks.0
+group	vscode/.vscode/tasks.json	/^            "group": {$/;"	o	object:tasks.0
+heap_cap_inc	old/nearly_sorted/heap.c	/^int heap_cap_inc(Heap* heap) {$/;"	f	typeref:typename:int
+heap_empty	old/nearly_sorted/heap.c	/^int heap_empty(Heap* heap) {$/;"	f	typeref:typename:int
+heap_insert	old/nearly_sorted/heap.c	/^int heap_insert(Heap* heap,int new_val) {$/;"	f	typeref:typename:int
+heap_pop	old/nearly_sorted/heap.c	/^int heap_pop(Heap* heap) {$/;"	f	typeref:typename:int
+heapifyDown	old/nearly_sorted/heap.c	/^void heapifyDown(Heap* heap) {$/;"	f	typeref:typename:void
+heapifyUp	old/nearly_sorted/heap.c	/^void heapifyUp(Heap* heap) {$/;"	f	typeref:typename:void
+height	old/leaf_lvl.cpp	/^int height(struct Node* node)$/;"	f	typeref:typename:int
+i	draw_tree.py	/^        i = 0$/;"	v
+id	chess/src/game.h	/^        int id;$/;"	m	class:Game	typeref:typename:int
+ignoreFailures	chess/.vscode/launch.json	/^                    "ignoreFailures": true$/;"	b	object:configurations.0.setupCommands.0
+ignoreFailures	vscode/.vscode/launch.json	/^                    "ignoreFailures": true$/;"	b	object:configurations.0.setupCommands.0
+imagedata	chess/chessboard_tkinter.py	/^imagedata = '''$/;"	v
+init_count_table	old/count_one_grid.cpp	/^void Count_one::init_count_table(void) {$/;"	f	class:Count_one	typeref:typename:void
+inorder	old/iso_tree.cpp	/^void inorder(Node *root){$/;"	f	typeref:typename:void
+inorder	old/iso_tree_two.cpp	/^void inorder(Node *root){$/;"	f	typeref:typename:void
+inorder	old/leaf_lvl.cpp	/^void inorder(Node *root)$/;"	f	typeref:typename:void
+input_type	tensorflow/convert.py	/^input_type = interpreter.get_input_details()[0]['dtype']$/;"	v
+insert	old/huffman_encoding.cpp	/^void HuffmanTree::insert(char data, int freq) {$/;"	f	class:HuffmanTree	typeref:typename:void
+insert	old/iso_tree.cpp	/^void insert(Node *root,int a1,int a2,char lr){$/;"	f	typeref:typename:void
+insert	old/iso_tree_two.cpp	/^void insert(Node *root,int a1,int a2,char lr){$/;"	f	typeref:typename:void
+insert	old/min_sum.cpp	/^void BigInt::insert(int digit) {$/;"	f	class:BigInt	typeref:typename:void
+insert	old/old_page_lru.cpp	/^bool CircleArray<T>::insert(T new_item) {$/;"	f	class:CircleArray	typeref:typename:bool
+insert_front	old/min_sum.cpp	/^void BigInt::insert_front(int digit) {$/;"	f	class:BigInt	typeref:typename:void
+interpreter	tensorflow/convert.py	/^interpreter = tf.lite.Interpreter(model_content=tflite_model_quant)$/;"	v
+isBST	old/bst_check/bst_check.cpp	/^bool isBST(Node* root) {$/;"	f	typeref:typename:bool
+isDefault	chess/.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.0.group
+isDefault	vscode/.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.0.group
+isIsomorphic	old/iso_tree.cpp	/^bool isIsomorphic(Node *root1,Node *root2)$/;"	f	typeref:typename:bool
+isIsomorphic	old/iso_tree_two.cpp	/^bool isIsomorphic(Node *root1,Node *root2)$/;"	f	typeref:typename:bool
+isMatch	old/reg_exp.cpp	/^    bool isMatch(string s, string p) {$/;"	f	class:Solution	typeref:typename:bool	file:
+isValid	old/valid_parenth.cpp	/^    bool isValid(string s) {$/;"	f	class:Solution	typeref:typename:bool	file:
+ismatch	old/reg_exp.cpp	/^bool Solution::ismatch(std::string* s, std::string* p, unsigned int s_pos, unsigned int p_pos, i/;"	f	class:Solution	typeref:typename:bool
+kind	chess/.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.0.group
+kind	vscode/.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.0.group
+king	chess/src/game.h	/^        king = 15$/;"	e	enum:Game::PieceID
+king	chess/src/piece.h	/^    king = 6$/;"	e	enum:PieceType
+knight	chess/src/piece.h	/^    knight = 2,$/;"	e	enum:PieceType
+knight1	chess/src/game.h	/^        knight1 = 8,$/;"	e	enum:Game::PieceID
+knight2	chess/src/game.h	/^        knight2 = 9,$/;"	e	enum:Game::PieceID
+label	chess/.vscode/tasks.json	/^            "label": "C\/C++: g++ build active file",$/;"	s	object:tasks.0
+label	vscode/.vscode/tasks.json	/^            "label": "C\/C++: g++ build active file",$/;"	s	object:tasks.0
+left	old/bottomview/bottomview.cpp	/^    Node *left, *right; \/\/left and right references$/;"	m	struct:Node	typeref:typename:Node *	file:
+left	old/bst_check/bst_check.cpp	/^    Node* left;$/;"	m	struct:Node	typeref:typename:Node *	file:
+left	old/count_tree_nodes.cpp	/^  TreeNode *left;$/;"	m	struct:TreeNode	typeref:typename:TreeNode *	file:
+left	old/even_odd.cpp	/^    struct Node* left;$/;"	m	struct:Node	typeref:struct:Node *	file:
+left	old/huffman_decode.cpp	/^	MinHeapNode *left, *right;$/;"	m	struct:MinHeapNode	typeref:typename:MinHeapNode *	file:
+left	old/huffman_encoding.cpp	/^    HuffmanNode* left;$/;"	m	struct:HuffmanNode	typeref:typename:HuffmanNode *	file:
+left	old/iso_tree.cpp	/^	Node *left,*right;$/;"	m	struct:Node	typeref:typename:Node *	file:
+left	old/iso_tree_two.cpp	/^	Node *left,*right;$/;"	m	struct:Node	typeref:typename:Node *	file:
+left	old/leaf_lvl.cpp	/^    struct Node* left;$/;"	m	struct:Node	typeref:struct:Node *	file:
+left	old/leftview.cpp	/^    struct Node* left;$/;"	m	struct:Node	typeref:struct:Node *	file:
+left	old/rightview.cpp	/^    struct Node* left;$/;"	m	struct:Node	typeref:struct:Node *	file:
+left	old/topview/topview.cpp	/^    struct Node* left;$/;"	m	struct:Node	typeref:struct:Node *	file:
+leftView	old/leftview.cpp	/^void leftView(Node *root)$/;"	f	typeref:typename:void
+level	old/leaf_lvl.cpp	/^    int level;$/;"	m	struct:LevelCheck	typeref:typename:int	file:
+log_err	chess/src/dbg.h	/^#define log_err(/;"	d
+log_err	old/nearly_sorted/dbg.h	/^#define log_err(/;"	d
+log_info	chess/src/dbg.h	/^#define log_info(/;"	d
+log_info	old/nearly_sorted/dbg.h	/^#define log_info(/;"	d
+log_warn	chess/src/dbg.h	/^#define log_warn(/;"	d
+log_warn	old/nearly_sorted/dbg.h	/^#define log_warn(/;"	d
+longestDupSubstring	old/longest_duplicate_substr.cpp	/^    string longestDupSubstring(string S) {$/;"	f	class:Solution	typeref:typename:string	file:
+m	old/count_one_grid.cpp	/^        int m;$/;"	m	class:Count_one	typeref:typename:int	file:
+main	chess/src/main.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	curr/replace_by_x.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/2d_spiral_array.cpp	/^int main(int argc, char **argv) {$/;"	f	typeref:typename:int
+main	old/bin_search.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/bottomview/bottomview.cpp	/^int main()$/;"	f	typeref:typename:int
+main	old/bst_check/bst_check.cpp	/^int main()$/;"	f	typeref:typename:int
+main	old/count_one_grid.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/even_odd.cpp	/^int main()$/;"	f	typeref:typename:int
+main	old/fibonacci.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/find_mean_stream.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	old/huffman_decode.cpp	/^int main()$/;"	f	typeref:typename:int
+main	old/huffman_encoding.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/iso_tree.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	old/iso_tree_two.cpp	/^int main(){$/;"	f	typeref:typename:int
+main	old/large_number.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/leaf_lvl.cpp	/^int main()$/;"	f	typeref:typename:int
+main	old/leftview.cpp	/^int main()$/;"	f	typeref:typename:int
+main	old/longest_duplicate_substr.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/longest_palin/source.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	old/max_toys.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/median_array.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/min_height_diff.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/min_sum.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/nearly_sorted.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/nearly_sorted/nearly_sorted.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/old_page_lru.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/one_edit.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/page_lru.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/reg_exp.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/rightview.cpp	/^int main()$/;"	f	typeref:typename:int
+main	old/topview/topview.cpp	/^int main()$/;"	f	typeref:typename:int
+main	old/try.cpp	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	old/two_sum.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	old/valid_parenth.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+main	vscode/hello.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+makeArgs	chess/.vscode/settings.json	/^            "makeArgs": ["--version"]$/;"	a	object:makefile.configurations.1
+makeArgs	chess/.vscode/settings.json	/^            "makeArgs": []$/;"	a	object:makefile.configurations.0
+makefile.configurations	chess/.vscode/settings.json	/^    "makefile.configurations": [$/;"	a
+makefile.launchConfigurations	chess/.vscode/settings.json	/^    "makefile.launchConfigurations": [$/;"	a
+miDebuggerPath	chess/.vscode/launch.json	/^            "miDebuggerPath": "\/usr\/bin\/gdb"$/;"	s	object:configurations.0
+miDebuggerPath	vscode/.vscode/launch.json	/^            "miDebuggerPath": "\/usr\/bin\/gdb"$/;"	s	object:configurations.0
+minHeap	old/huffman_decode.cpp	/^priority_queue<MinHeapNode*, vector<MinHeapNode*>, compare> minHeap;$/;"	v	typeref:typename:priority_queue<MinHeapNode *,vector<MinHeapNode * >,compare>
+min_height_diff	old/min_height_diff.cpp	/^int min_height_diff(int K, std::vector<int>& input_seq) {$/;"	f	typeref:typename:int
+mnist	tensorflow/convert.py	/^mnist = tf.keras.datasets.mnist$/;"	v
+mnist	tensorflow/train.py	/^mnist = tf.keras.datasets.mnist$/;"	v
+model	tensorflow/train.py	/^model = tf.keras.Sequential([$/;"	v
+move	chess/src/game.cpp	/^bool Game::move(int s_x, int s_y, int t_x, int t_y) $/;"	f	class:Game	typeref:typename:bool
+moved	chess/src/piece.h	/^        bool moved;$/;"	m	class:Piece	typeref:typename:bool
+moves	chess/src/position.h	/^	PosMov moves;$/;"	m	class:Position	typeref:typename:PosMov
+mv_id	chess/src/game.h	/^        int mv_id;$/;"	m	class:Game	typeref:typename:int
+myprog	old/longest_palin/Makefile	/^myprog: $(obj)$/;"	t
+n	draw_tree.py	/^        n = int(input())  # number of nodes in tree$/;"	v
+n	old/count_one_grid.cpp	/^        int n;$/;"	m	class:Count_one	typeref:typename:int	file:
+name	chess/.vscode/launch.json	/^            "name": "g++ - Build and debug active file",$/;"	s	object:configurations.0
+name	chess/.vscode/settings.json	/^            "name": "Default",$/;"	s	object:makefile.configurations.0
+name	chess/.vscode/settings.json	/^            "name": "Print make version",$/;"	s	object:makefile.configurations.1
+name	chess/src/game.h	/^        std::string name;$/;"	m	class:Game	typeref:typename:std::string
+name	vscode/.vscode/launch.json	/^            "name": "g++ - Build and debug active file",$/;"	s	object:configurations.0
+newNode	old/even_odd.cpp	/^struct Node* newNode(int data)$/;"	f	typeref:struct:Node *
+newNode	old/iso_tree.cpp	/^Node *newNode(int data)$/;"	f	typeref:typename:Node *
+newNode	old/iso_tree_two.cpp	/^Node *newNode(int data)$/;"	f	typeref:typename:Node *
+newNode	old/leaf_lvl.cpp	/^struct Node* newNode(int data)$/;"	f	typeref:struct:Node *
+nodes	old/huffman_encoding.cpp	/^        std::priority_queue< HuffmanNode*, std::vector<HuffmanNode*>, CompareNode > nodes;$/;"	m	class:HuffmanTree	typeref:typename:std::priority_queue<HuffmanNode *,std::vector<HuffmanNode * >,CompareNode>	file:
+np	tensorflow/convert.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	tensorflow/train.py	/^import numpy as np$/;"	I	nameref:module:numpy
+obj	old/longest_palin/Makefile	/^obj = $(csrc:.c=.o) $(ccsrc:.cc=.o) $(cppsrc:.cpp=.o)$/;"	m
+one_edit_away	old/one_edit.cpp	/^bool one_edit_away(std::string first, std::string second) {$/;"	f	typeref:typename:bool
+operator ()	old/huffman_decode.cpp	/^	bool operator()(MinHeapNode* l, MinHeapNode* r)$/;"	f	struct:compare	typeref:typename:bool	file:
+operator ()	old/huffman_encoding.cpp	/^        bool operator()(HuffmanNode* lhs, HuffmanNode* rhs) {$/;"	f	class:CompareNode	typeref:typename:bool	file:
+operator +	old/min_sum.cpp	/^BigInt BigInt::operator+(BigInt const &operand) {$/;"	f	class:BigInt	typeref:typename:BigInt
+operator []	old/old_page_lru.cpp	/^T &CircleArray<T>::operator[](int index) {$/;"	f	class:CircleArray	typeref:typename:T &
+options	chess/.vscode/tasks.json	/^            "options": {$/;"	o	object:tasks.0
+options	vscode/.vscode/tasks.json	/^            "options": {$/;"	o	object:tasks.0
+output_type	tensorflow/convert.py	/^output_type = interpreter.get_output_details()[0]['dtype']$/;"	v
+outstr	dnd_roll20.py	/^    outstr = att_list[i]+": "+str(randnum)$/;"	v
+parent	draw_tree.py	/^            parent = int(a[i])$/;"	v
+pawn	chess/src/piece.h	/^    pawn = 1,$/;"	e	enum:PieceType
+pawn1	chess/src/game.h	/^        pawn1 = 0,$/;"	e	enum:Game::PieceID
+pawn2	chess/src/game.h	/^        pawn2 = 1,$/;"	e	enum:Game::PieceID
+pawn3	chess/src/game.h	/^        pawn3 = 2,$/;"	e	enum:Game::PieceID
+pawn4	chess/src/game.h	/^        pawn4 = 3,$/;"	e	enum:Game::PieceID
+pawn5	chess/src/game.h	/^        pawn5 = 4,$/;"	e	enum:Game::PieceID
+pawn6	chess/src/game.h	/^        pawn6 = 5,$/;"	e	enum:Game::PieceID
+pawn7	chess/src/game.h	/^        pawn7 = 6,$/;"	e	enum:Game::PieceID
+pawn8	chess/src/game.h	/^        pawn8 = 7,$/;"	e	enum:Game::PieceID
+place_piece	chess/src/position.cpp	/^void Position::place_piece(Piece* piece, int x, int y)$/;"	f	class:Position	typeref:typename:void
+placepiece	chess/chessboard_tkinter.py	/^    def placepiece(self, name, row, column):$/;"	m	class:GameBoard
+player1	chess/chessboard_tkinter.py	/^    player1 = tk.PhotoImage(data=imagedata)$/;"	v
+pop	old/old_page_lru.cpp	/^void CircleArray<T>::pop(void) {$/;"	f	class:CircleArray	typeref:typename:void
+pos	old/nearly_sorted/heap.h	/^    unsigned int pos;$/;"	m	struct:Heap	typeref:typename:unsigned int
+positions	chess/src/game.h	/^        std::vector<Position*> positions;$/;"	m	class:Game	typeref:typename:std::vector<Position * >
+posmov	chess/src/position.h	/^			DblBoardBool posmov;$/;"	m	class:Position::PosMov	typeref:typename:DblBoardBool
+preLaunchTask	chess/.vscode/launch.json	/^            "preLaunchTask": "C\/C++: g++ build active file",$/;"	s	object:configurations.0
+preLaunchTask	vscode/.vscode/launch.json	/^            "preLaunchTask": "C\/C++: g++ build active file",$/;"	s	object:configurations.0
+print	old/min_sum.cpp	/^void BigInt::print(void) {$/;"	f	class:BigInt	typeref:typename:void
+printCodes	old/huffman_decode.cpp	/^void printCodes(struct MinHeapNode* root, string str)$/;"	f	typeref:typename:void
+print_array	old/longest_palin/source.cpp	/^void print_array(int* array, int size) {$/;"	f	typeref:typename:void
+print_count_table	old/count_one_grid.cpp	/^void Count_one::print_count_table(void) {$/;"	f	class:Count_one	typeref:typename:void
+prn_allposmov	chess/src/game.h	/^        void prn_allposmov(int s_x, int s_y) {$/;"	f	class:Game	typeref:typename:void
+prn_allposmov	chess/src/position.cpp	/^void Position::prn_allposmov(int s_x, int s_y)$/;"	f	class:Position	typeref:typename:void
+prn_board	chess/src/position.cpp	/^void Position::prn_board()$/;"	f	class:Position	typeref:typename:void
+prn_curr_pos	chess/src/game.h	/^        void prn_curr_pos() {$/;"	f	class:Game	typeref:typename:void
+prn_piece	chess/src/piece.cpp	/^std::string Bishop::prn_piece() {$/;"	f	class:Bishop	typeref:typename:std::string
+prn_piece	chess/src/piece.cpp	/^std::string King::prn_piece() {$/;"	f	class:King	typeref:typename:std::string
+prn_piece	chess/src/piece.cpp	/^std::string Knight::prn_piece() {$/;"	f	class:Knight	typeref:typename:std::string
+prn_piece	chess/src/piece.cpp	/^std::string Pawn::prn_piece() {$/;"	f	class:Pawn	typeref:typename:std::string
+prn_piece	chess/src/piece.cpp	/^std::string Queen::prn_piece() {$/;"	f	class:Queen	typeref:typename:std::string
+prn_piece	chess/src/piece.cpp	/^std::string Rook::prn_piece() {$/;"	f	class:Rook	typeref:typename:std::string
+prn_pointers	chess/src/position.cpp	/^void Position::prn_pointers()$/;"	f	class:Position	typeref:typename:void
+problemMatcher	chess/.vscode/tasks.json	/^            "problemMatcher": [$/;"	a	object:tasks.0
+problemMatcher	vscode/.vscode/tasks.json	/^            "problemMatcher": [$/;"	a	object:tasks.0
+program	chess/.vscode/launch.json	/^            "program": "${fileDirname}\/${fileBasenameNoExtension}",$/;"	s	object:configurations.0
+program	vscode/.vscode/launch.json	/^            "program": "${fileDirname}\/${fileBasenameNoExtension}",$/;"	s	object:configurations.0
+queen	chess/src/game.h	/^        queen = 14,$/;"	e	enum:Game::PieceID
+queen	chess/src/piece.h	/^    queen = 5,$/;"	e	enum:PieceType
+randnum	dnd_roll20.py	/^    randnum = random.randint(8,19)$/;"	v
+recursive_del	old/huffman_encoding.cpp	/^void HuffmanTree::recursive_del(HuffmanNode* node) {$/;"	f	class:HuffmanTree	typeref:typename:void
+refresh	chess/chessboard_tkinter.py	/^    def refresh(self, event):$/;"	m	class:GameBoard
+remake	chess/Makefile	/^remake: cleaner all$/;"	t
+remove	old/old_page_lru.cpp	/^bool CircleArray<T>::remove(int index) {$/;"	f	class:CircleArray	typeref:typename:bool
+representative_data_gen	tensorflow/convert.py	/^def representative_data_gen():$/;"	f
+request	chess/.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.0
+request	vscode/.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.0
+right	old/bottomview/bottomview.cpp	/^    Node *left, *right; \/\/left and right references$/;"	m	struct:Node	typeref:typename:Node *	file:
+right	old/bst_check/bst_check.cpp	/^    Node* right;$/;"	m	struct:Node	typeref:typename:Node *	file:
+right	old/count_tree_nodes.cpp	/^  TreeNode *right;$/;"	m	struct:TreeNode	typeref:typename:TreeNode *	file:
+right	old/even_odd.cpp	/^    struct Node* right;$/;"	m	struct:Node	typeref:struct:Node *	file:
+right	old/huffman_decode.cpp	/^	MinHeapNode *left, *right;$/;"	m	struct:MinHeapNode	typeref:typename:MinHeapNode *	file:
+right	old/huffman_encoding.cpp	/^    HuffmanNode* right;$/;"	m	struct:HuffmanNode	typeref:typename:HuffmanNode *	file:
+right	old/iso_tree.cpp	/^	Node *left,*right;$/;"	m	struct:Node	typeref:typename:Node *	file:
+right	old/iso_tree_two.cpp	/^	Node *left,*right;$/;"	m	struct:Node	typeref:typename:Node *	file:
+right	old/leaf_lvl.cpp	/^    struct Node* right;$/;"	m	struct:Node	typeref:struct:Node *	file:
+right	old/leftview.cpp	/^    struct Node* right;$/;"	m	struct:Node	typeref:struct:Node *	file:
+right	old/rightview.cpp	/^    struct Node* right;$/;"	m	struct:Node	typeref:struct:Node *	file:
+right	old/topview/topview.cpp	/^    struct Node* right;$/;"	m	struct:Node	typeref:struct:Node *	file:
+rightView	old/rightview.cpp	/^void rightView(Node *root)$/;"	f	typeref:typename:void
+rm_piece	chess/src/position.cpp	/^Piece* Position::rm_piece(int x, int y)$/;"	f	class:Position	typeref:typename:Piece *
+rook	chess/src/piece.h	/^    rook = 4,$/;"	e	enum:PieceType
+rook1	chess/src/game.h	/^        rook1 = 12,$/;"	e	enum:Game::PieceID
+rook2	chess/src/game.h	/^        rook2 = 13,$/;"	e	enum:Game::PieceID
+root	chess/chessboard_tkinter.py	/^    root = tk.Tk()$/;"	v
+root	old/huffman_encoding.cpp	/^        HuffmanNode* root;$/;"	m	class:HuffmanTree	typeref:typename:HuffmanNode *	file:
+search	old/bin_search.cpp	/^    int search(vector<int>& nums, int target) {$/;"	f	class:Solution	typeref:typename:int	file:
+search_recur	old/bin_search.cpp	/^    int search_recur(vector<int>& nums, int target, int begin, int end) {$/;"	f	class:Solution	typeref:typename:int	file:
+sentinel	chess/src/dbg.h	/^#define sentinel(/;"	d
+sentinel	old/nearly_sorted/dbg.h	/^#define sentinel(/;"	d
+set	chess/src/board.h	/^        void set(T item, int x, int y) {$/;"	f	class:Board	typeref:typename:void
+set	chess/src/board.h	/^        void set(bool val, int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:DblBoardBool	typeref:typename:void
+set	chess/src/position.h	/^			void set(bool val, int s_x, int s_y, int t_x, int t_y) $/;"	f	class:Position::PosMov	typeref:typename:void
+set_captured	chess/src/piece.h	/^        void set_captured(bool newval) {$/;"	f	class:Piece	typeref:typename:void
+set_moved	chess/src/piece.h	/^        bool set_moved() {$/;"	f	class:Piece	typeref:typename:bool
+setup	chess/src/position.cpp	/^void Position::setup(void)$/;"	f	class:Position	typeref:typename:void
+setupCommands	chess/.vscode/launch.json	/^            "setupCommands": [$/;"	a	object:configurations.0
+setupCommands	vscode/.vscode/launch.json	/^            "setupCommands": [$/;"	a	object:configurations.0
+setup_board	chess/src/game.cpp	/^void Game::setup_board() $/;"	f	class:Game	typeref:typename:void
+show	old/old_page_lru.cpp	/^void CircleArray<T>::show(void) {$/;"	f	class:CircleArray	typeref:typename:void
+show	old/page_lru.cpp	/^void show(std::vector<int> vec) {$/;"	f	typeref:typename:void
+size	old/old_page_lru.cpp	/^unsigned int CircleArray<T>::size(void) {$/;"	f	class:CircleArray	typeref:typename:unsigned int
+spiral	old/2d_spiral_array.cpp	/^int** spiral(int n) {$/;"	f	typeref:typename:int **
+stopAtEntry	chess/.vscode/launch.json	/^            "stopAtEntry": false,$/;"	b	object:configurations.0
+stopAtEntry	vscode/.vscode/launch.json	/^            "stopAtEntry": false,$/;"	b	object:configurations.0
+storeCodes	old/huffman_decode.cpp	/^void storeCodes(struct MinHeapNode* root, string str)$/;"	f	typeref:typename:void
+sumLeft	old/sum_left_leaf.cpp	/^    int sumLeft(TreeNode* root, bool leftchild) {$/;"	f	class:Solution	typeref:typename:int	file:
+sumOfLeftLeaves	old/sum_left_leaf.cpp	/^    int sumOfLeftLeaves(TreeNode* root) {$/;"	f	class:Solution	typeref:typename:int	file:
+swap	old/old_page_lru.cpp	/^void swap(T& a, T& b) {$/;"	f	typeref:typename:void
+tasks	chess/.vscode/tasks.json	/^    "tasks": [$/;"	a
+tasks	vscode/.vscode/tasks.json	/^    "tasks": [$/;"	a
+test_cases	draw_tree.py	/^    test_cases = int(input())$/;"	v
+test_images	tensorflow/convert.py	/^test_images = test_images.astype(np.float32) \/ 255.0$/;"	v
+test_images	tensorflow/train.py	/^test_images = test_images.astype(np.float32) \/ 255.0$/;"	v
+text	chess/.vscode/launch.json	/^                    "text": "-enable-pretty-printing",$/;"	s	object:configurations.0.setupCommands.0
+text	vscode/.vscode/launch.json	/^                    "text": "-enable-pretty-printing",$/;"	s	object:configurations.0.setupCommands.0
+tf	tensorflow/convert.py	/^import tensorflow as tf$/;"	I	nameref:module:tensorflow
+tf	tensorflow/train.py	/^import tensorflow as tf$/;"	I	nameref:module:tensorflow
+tflite_model_quant	tensorflow/convert.py	/^tflite_model_quant = converter.convert()$/;"	v
+tk	chess/chessboard_tkinter.py	/^import tkinter as tk$/;"	I	nameref:module:tkinter
+topView	old/topview/topview.cpp	/^void topView(Node *root)$/;"	f	typeref:typename:void
+train_images	tensorflow/convert.py	/^train_images = train_images.astype(np.float32) \/ 255.0$/;"	v
+train_images	tensorflow/train.py	/^train_images = train_images.astype(np.float32) \/ 255.0$/;"	v
+transpose_a\x12\x04bool\x1A\x02(\vtranspose_b\x12\x04bool\x1A\x02(\x01T\x12\x04type	tensorflow/my_model/saved_model.pb	/^transpose_abool(transpose_bbool(Ttype:$/;"	l
+traverse	old/huffman_encoding.cpp	/^void HuffmanTree::traverse(void) {$/;"	f	class:HuffmanTree	typeref:typename:void
+traverse	old/leftview.cpp	/^void traverse(queue< pair<Node*,int> >& node_queue, map<int,int>& leftview) {$/;"	f	typeref:typename:void
+traverse	old/rightview.cpp	/^void traverse(map<int,int>& rightview, queue< pair<Node*,int> >& node_queue) {$/;"	f	typeref:typename:void
+traverse	old/topview/topview.cpp	/^void traverse(queue< pair<Node*,int> >& node_queue, map<int,int>& top_view) {$/;"	f	typeref:typename:void
+tree	draw_tree.py	/^        tree = Tree()$/;"	v
+treedraw	draw_tree.py	/^        treedraw = TreeDraw()$/;"	v
+twoSum	old/two_sum.cpp	/^    vector<int> twoSum(vector<int>& nums, int target) {$/;"	f	class:Solution	typeref:typename:vector<int>	file:
+type	chess/.vscode/launch.json	/^            "type": "cppdbg",$/;"	s	object:configurations.0
+type	chess/.vscode/tasks.json	/^            "type": "cppbuild",$/;"	s	object:tasks.0
+type	chess/src/piece.h	/^        PieceType type;$/;"	m	class:Piece	typeref:typename:PieceType
+type	vscode/.vscode/launch.json	/^            "type": "cppdbg",$/;"	s	object:configurations.0
+type	vscode/.vscode/tasks.json	/^            "type": "cppbuild",$/;"	s	object:tasks.0
+val	old/count_tree_nodes.cpp	/^  int val;$/;"	m	struct:TreeNode	typeref:typename:int	file:
+valid	old/leaf_lvl.cpp	/^    bool valid;$/;"	m	struct:LevelCheck	typeref:typename:bool	file:
+valid_coord	chess/src/game.h	/^        bool valid_coord(int x, int y) {$/;"	f	class:Game	typeref:typename:bool
+valid_pos	chess/src/position.cpp	/^bool Position::valid_pos(int x, int y)$/;"	f	class:Position	typeref:typename:bool
+vec	chess/src/board.h	/^        std::vector<T> vec;$/;"	m	class:Board	typeref:typename:std::vector<T>
+vec	chess/src/board.h	/^        std::vector<bool> vec;$/;"	m	class:DblBoardBool	typeref:typename:std::vector<bool>
+vector	chess/.vscode/settings.json	/^        "vector": "cpp"$/;"	s	object:files.associations
+version	chess/.vscode/tasks.json	/^    "version": "2.0.0"$/;"	s
+version	vscode/.vscode/tasks.json	/^    "version": "2.0.0"$/;"	s
+visit	old/bottomview/bottomview.cpp	/^void visit(Node *node, map<int,int>& bot_view, int hd) {$/;"	f	typeref:typename:void
+visit	old/bst_check/bst_check.cpp	/^bool visit(Node* node, int* curr_val) {$/;"	f	typeref:typename:bool
+visit_node	old/huffman_encoding.cpp	/^void visit_node(HuffmanNode* node, std::string code) {$/;"	f	typeref:typename:void
+white	chess/src/piece.h	/^    white = 0,$/;"	e	enum:Color
+whites	chess/src/game.h	/^        Piece* whites[NUM_PIECE];$/;"	m	class:Game	typeref:typename:Piece * []
+~Bishop	chess/src/piece.h	/^        ~Bishop() {}$/;"	f	class:Bishop
+~CircleArray	old/old_page_lru.cpp	/^CircleArray<T>::~CircleArray() {$/;"	f	class:CircleArray
+~Count_one	old/count_one_grid.cpp	/^        ~Count_one() {$/;"	f	class:Count_one	file:
+~Game	chess/src/game.h	/^        ~Game() { $/;"	f	class:Game
+~HuffmanTree	old/huffman_encoding.cpp	/^HuffmanTree::~HuffmanTree(void) {$/;"	f	class:HuffmanTree
+~King	chess/src/piece.h	/^        ~King() {}$/;"	f	class:King
+~Knight	chess/src/piece.h	/^        ~Knight() {}$/;"	f	class:Knight
+~Pawn	chess/src/piece.h	/^        ~Pawn() {}$/;"	f	class:Pawn
+~Piece	chess/src/piece.h	/^        virtual ~Piece() {};$/;"	f	class:Piece
+~PosMov	chess/src/position.h	/^            ~PosMov() { }$/;"	f	class:Position::PosMov
+~Position	chess/src/position.h	/^	~Position() { } $/;"	f	class:Position
+~Queen	chess/src/piece.h	/^        ~Queen() {}$/;"	f	class:Queen
+~Rook	chess/src/piece.h	/^        ~Rook() {}$/;"	f	class:Rook

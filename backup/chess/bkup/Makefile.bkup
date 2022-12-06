@@ -1,0 +1,35 @@
+TARGET_EXEC=chess
+
+CXX :=g++
+
+SRC_DIRS 	:=./src
+BUILD_DIR 	:=./build
+
+SRCS := $(shell find $(SRC_DIRS) -name *.cpp)
+OBJS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SRCS:.cpp=.o))
+DEPS := $(OBJS:.o=.d)
+
+INC_DIRS := $(shell find $(SRC_DIRS) -type d)
+INC_FLAGS := $(addprefix -I,$(INC_DIRS))
+
+CFLAGS ?=$(INC_FLAGS) -MMD -MP -Wall -std=c++11
+LDFLAGS= 
+
+$(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+$(BUILDDIR)/%.$(OBJEXT): $(SRCDIR)/%.$(SRCEXT)
+	@mkdir -p $(dir $@)
+	$(CC) $(CFLAGS) $(INC) -c -o $@ $<
+	@$(CC) $(CFLAGS) $(INCDEP) -MM $(SRCDIR)/$*.$(SRCEXT) > $(BUILDDIR)/$*.$(DEPEXT)
+	@cp -f $(BUILDDIR)/$*.$(DEPEXT) $(BUILDDIR)/$*.$(DEPEXT).tmp
+	@sed -e 's|.*:|$(BUILDDIR)/$*.$(OBJEXT):|' < $(BUILDDIR)/$*.$(DEPEXT).tmp > $(BUILDDIR)/$*.$(DEPEXT)
+	@sed -e 's/.*://' -e 's/\\$$//' < $(BUILDDIR)/$*.$(DEPEXT).tmp | fmt -1 | sed -e 's/^ *//' -e 's/$$/:/' >> $(BUILDDIR)/$*.$(DEPEXT)
+	@rm -f $(BUILDDIR)/$*.$(DEPEXT).tmp
+
+
+.PHONY: clean
+clean:
+	rm -f $(TARGET_EXEC) $(OBJS) $(DEPS)
+
+-include $(DEPS)   # include all dep files in the makefile

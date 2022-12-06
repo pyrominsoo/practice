@@ -1,0 +1,33 @@
+make all --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/mkim/Dropbox/practice/chess'
+mkdir -p obj/
+g++ -Wall -O0 -g  -Iinc -I/usr/local/include -c -o obj/game.o src/game.cpp
+g++ -Wall -O0 -g  -Iinc -MM src/game.cpp > obj/game.d
+cp -f obj/game.d obj/game.d.tmp
+sed -e 's|.*:|obj/game.o:|' < obj/game.d.tmp > obj/game.d
+sed -e 's/.*://' -e 's/\\$//' < obj/game.d.tmp | fmt -1 | sed -e 's/^ *//' -e 's/$/:/' >> obj/game.d
+rm -f obj/game.d.tmp
+mkdir -p obj/
+g++ -Wall -O0 -g  -Iinc -I/usr/local/include -c -o obj/piece.o src/piece.cpp
+g++ -Wall -O0 -g  -Iinc -MM src/piece.cpp > obj/piece.d
+cp -f obj/piece.d obj/piece.d.tmp
+sed -e 's|.*:|obj/piece.o:|' < obj/piece.d.tmp > obj/piece.d
+sed -e 's/.*://' -e 's/\\$//' < obj/piece.d.tmp | fmt -1 | sed -e 's/^ *//' -e 's/$/:/' >> obj/piece.d
+rm -f obj/piece.d.tmp
+mkdir -p obj/
+g++ -Wall -O0 -g  -Iinc -I/usr/local/include -c -o obj/position.o src/position.cpp
+g++ -Wall -O0 -g  -Iinc -MM src/position.cpp > obj/position.d
+cp -f obj/position.d obj/position.d.tmp
+sed -e 's|.*:|obj/position.o:|' < obj/position.d.tmp > obj/position.d
+sed -e 's/.*://' -e 's/\\$//' < obj/position.d.tmp | fmt -1 | sed -e 's/^ *//' -e 's/$/:/' >> obj/position.d
+rm -f obj/position.d.tmp
+mkdir -p obj/
+g++ -Wall -O0 -g  -Iinc -I/usr/local/include -c -o obj/main.o src/main.cpp
+g++ -Wall -O0 -g  -Iinc -MM src/main.cpp > obj/main.d
+cp -f obj/main.d obj/main.d.tmp
+sed -e 's|.*:|obj/main.o:|' < obj/main.d.tmp > obj/main.d
+sed -e 's/.*://' -e 's/\\$//' < obj/main.d.tmp | fmt -1 | sed -e 's/^ *//' -e 's/$/:/' >> obj/main.d
+rm -f obj/main.d.tmp
+g++ -o bin/program obj/game.o obj/piece.o obj/position.o obj/main.o 
+make: Leaving directory '/home/mkim/Dropbox/practice/chess'
+ 

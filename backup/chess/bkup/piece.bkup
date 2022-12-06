@@ -1,0 +1,201 @@
+
+#include "dbg.h"
+
+
+// bool Pawn::check_mv(int curr_time) {
+//     int x, y;{{{
+//    
+//     if (!_check_prevlist(curr_time)) {
+//         return !pm_list->empty();
+//     }
+// 
+//     std::vector< std::pair<int,int> > diff_vec;
+// 
+//     int mv_dist, mv_dist2;
+//     if (color == white) {
+//         mv_dist = 1;
+//         mv_dist2 = 2;
+//     } else { // color == black
+//         mv_dist = -1;
+//         mv_dist2 = -2;
+//     }
+//         
+//     x = pos_x;
+//     y = pos_y + mv_dist;
+// 
+//     if (board->valid_pos(x,y) && board->check_empty(x,y)) {
+//         pm_list->add(x,y);
+//     }
+//     
+//     x = pos_x;
+//     y = pos_y+mv_dist2;
+//     if (!moved && board->valid_pos(x,y) 
+//                 && board->check_empty(x,y)) {
+//         pm_list->add(x,y);    
+//     }
+// 
+//     x = pos_x - 1;
+//     y = pos_y + mv_dist;
+//     if (board->valid_pos(x,y) && !board->check_empty(x,y)) {
+//         if (!same_color(x,y)) {
+//             pm_list->add(x,y);
+//         }
+//     }
+//     
+//     x = pos_x + 1;
+//     y = pos_y + mv_dist;
+//     if (board->valid_pos(x,y) && !board->check_empty(x,y)) {
+//         if (!same_color(x,y)) {
+//             pm_list->add(x,y);
+//         }
+//     }
+// 
+//     return !pm_list->empty();}}}
+// }
+
+// bool Piece::diff_traverse( std::vector< std::pair<int,int> > diff_vec ) {
+// {{{
+//     int x, y;
+// 
+//     for (auto it = diff_vec.begin(); it != diff_vec.end(); it++) {
+//         x = pos_x + it->first;
+//         y = pos_y + it->second;
+// 
+//         debug("x,y: %d,%d", x, y);
+//         if (board->valid_pos(x,y)) {
+//             if (board->check_empty(x,y)) {
+//                 pm_list->add(x,y);            
+//             } else {
+//                 if (!same_color(x,y)) {
+//                     pm_list->add(x,y);
+//                 }
+//             }
+//         }
+//     }
+// 
+//     return !pm_list->empty();}}}
+// }
+// 
+// bool Piece::dir_traverse( std::vector< std::pair<int,int> > dir_vec ) {
+//     {{{
+//     int x, y;
+// 
+//     for (auto it = dir_vec.begin(); it != dir_vec.end(); it++) {
+//         x = pos_x + it->first;
+//         y = pos_y + it->second;
+//        
+//         debug("x,y: %d,%d", x, y);
+//         while (board->valid_pos(x,y)) {
+//             if (board->check_empty(x,y)) {
+//                 pm_list->add(x,y);
+//                 x = x + it->first;
+//                 y = y + it->second;
+//             } else {
+//                 if (!same_color(x,y)) {
+//                     pm_list->add(x,y);
+//                 }
+//                 break;
+//             }
+//         }
+//     }
+// 
+//     return !pm_list->empty();}}}
+// }
+
+// bool Knight::check_mv(int curr_time) {
+//     debug("Knight: pos_x,pos_y: %d,%d", pos_x, pos_y);{{{
+//     
+//     if (!_check_prevlist(curr_time)) {
+//         return !pm_list->empty();
+//     }
+//     
+//     std::vector< std::pair<int,int> > diff_vec;
+//     diff_vec.push_back( std::make_pair(-2,1) );
+//     diff_vec.push_back( std::make_pair(-2,-1) );
+//     diff_vec.push_back( std::make_pair(-1,2) );
+//     diff_vec.push_back( std::make_pair(-1,-2) );
+//     diff_vec.push_back( std::make_pair(1,2) );
+//     diff_vec.push_back( std::make_pair(1,-2) );
+//     diff_vec.push_back( std::make_pair(2,1) );
+//     diff_vec.push_back( std::make_pair(2,-1) );
+// 
+//     return diff_traverse( diff_vec );}}}
+// }
+// 
+// 
+// bool Bishop::check_mv(int curr_time) {
+//     debug("Bishop: pos_x,pos_y: %d,%d", pos_x, pos_y);{{{
+//     
+//     if (!_check_prevlist(curr_time)) {
+//         return !pm_list->empty();
+//     }
+// 
+//     std::vector< std::pair<int,int> > dir_vec;
+//     dir_vec.push_back( std::make_pair(-1,1) );
+//     dir_vec.push_back( std::make_pair(-1,-1) );
+//     dir_vec.push_back( std::make_pair(1,1) );
+//     dir_vec.push_back( std::make_pair(1,-1) );
+// 
+//     return dir_traverse( dir_vec );}}}
+// }
+// 
+// 
+// 
+// bool Rook::check_mv(int curr_time) {
+//     debug("Rook: pos_x,pos_y: %d,%d", pos_x, pos_y);{{{
+//     
+//     if (!_check_prevlist(curr_time)) {
+//         return !pm_list->empty();
+//     }
+// 
+//     std::vector< std::pair<int,int> > dir_vec;
+//     dir_vec.push_back( std::make_pair(0,1) );
+//     dir_vec.push_back( std::make_pair(0,-1) );
+//     dir_vec.push_back( std::make_pair(1,0) );
+//     dir_vec.push_back( std::make_pair(-1,0) );
+// 
+//     return dir_traverse( dir_vec );
+// }}}
+// }
+// 
+// bool Queen::check_mv(int curr_time) {
+//     debug("Queen: pos_x,pos_y: %d,%d", pos_x, pos_y);{{{
+//     
+//     if (!_check_prevlist(curr_time)) {
+//         return !pm_list->empty();
+//     }
+// 
+//     std::vector< std::pair<int,int> > dir_vec;
+//     dir_vec.push_back( std::make_pair(0,1) );
+//     dir_vec.push_back( std::make_pair(0,-1) );
+//     dir_vec.push_back( std::make_pair(1,0) );
+//     dir_vec.push_back( std::make_pair(-1,0) );
+//     dir_vec.push_back( std::make_pair(-1,1) );
+//     dir_vec.push_back( std::make_pair(-1,-1) );
+//     dir_vec.push_back( std::make_pair(1,1) );
+//     dir_vec.push_back( std::make_pair(1,-1) );
+// 
+//     return dir_traverse( dir_vec );
+// }}}
+// }
+// 
+// bool King::check_mv(int curr_time) {
+//     debug("King: pos_x,pos_y: %d,%d", pos_x, pos_y);{{{
+//     
+//     if (!_check_prevlist(curr_time)) {
+//         return !pm_list->empty();
+//     }
+// 
+//     std::vector< std::pair<int,int> > diff_vec;
+//     diff_vec.push_back( std::make_pair(0,1) );
+//     diff_vec.push_back( std::make_pair(0,-1) );
+//     diff_vec.push_back( std::make_pair(1,0) );
+//     diff_vec.push_back( std::make_pair(-1,0) );
+//     diff_vec.push_back( std::make_pair(-1,1) );
+//     diff_vec.push_back( std::make_pair(-1,-1) );
+//     diff_vec.push_back( std::make_pair(1,1) );
+//     diff_vec.push_back( std::make_pair(1,-1) );
+//     
+//     return diff_traverse( diff_vec );}}}
+// }
+

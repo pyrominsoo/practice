@@ -1,0 +1,23 @@
+{
+    "makefile.configurations": [
+        {
+            "name": "Default",
+            "makeArgs": []
+        },
+        {
+            "name": "Print make version",
+            "makeArgs": ["--version"]
+        }
+    ],
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/mkim/Dropbox/practice/chess/bin",
+            "binaryPath": "/home/mkim/Dropbox/practice/chess/bin/program",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "*.tcc": "cpp",
+        "vector": "cpp"
+    }
+}

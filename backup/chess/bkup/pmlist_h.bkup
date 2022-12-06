@@ -1,0 +1,49 @@
+#ifndef _PMLIST_H_
+#define _PMLIST_H_
+
+#include <utility>
+
+
+
+class PMList {
+    public:
+        PMList(void) {
+            timestamp = 0; 
+        }
+        PMList(int curr_time) {
+            timestamp = curr_time;
+        }
+        ~PMList(void) {}
+     
+        bool empty(void) {
+            return mv_vec.empty();
+        }
+
+        // adds the coordinate as a possible move
+        void add(int x, int y);
+
+        // find the coorindate in the list. return true if found.
+        bool find(int x, int y);
+
+        void set_time(int curr_time) {
+            timestamp = curr_time;
+        }
+        int get_time(void) {
+            return timestamp;
+        }
+        bool check_time(int curr_time) {
+            return (curr_time == timestamp)? true : false;
+        }
+
+        // remove the cooridnate in the list. return true if found and removed.
+        bool erase(int x, int y);
+        bool erase( std::pair<int,int> target );
+
+        std::pair<int,int> &operator[](int i);
+
+    private:
+        std::vector< std::pair<int,int> > mv_vec;
+        int timestamp;
+};
+
+#endif

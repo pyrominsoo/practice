@@ -1,0 +1,159 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/mkim/Dropbox/practice/chess/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/0673dacf/
+BOARD_HEIGHT	src/chessparam.h	/^#define BOARD_HEIGHT /;"	d
+BOARD_WIDTH	src/chessparam.h	/^#define BOARD_WIDTH /;"	d
+Bishop	src/piece.h	/^        Bishop(Color color) :  Piece(color, bishop) {$/;"	f	class:Bishop
+Bishop	src/piece.h	/^class Bishop : public Piece {$/;"	c
+Board	src/board.h	/^        Board() {$/;"	f	class:Board
+Board	src/board.h	/^class Board {$/;"	c
+CHESSPARAM_H	src/chessparam.h	/^#define CHESSPARAM_H$/;"	d
+Color	src/piece.h	/^enum Color{$/;"	g
+DblBoardBool	src/board.h	/^        DblBoardBool() {$/;"	f	class:DblBoardBool
+DblBoardBool	src/board.h	/^class DblBoardBool {$/;"	c
+Game	src/game.h	/^        Game(int id, std::string name) : id{id}, name{name} {$/;"	f	class:Game
+Game	src/game.h	/^class Game$/;"	c
+King	src/piece.h	/^        King(Color color) :  Piece(color, king) {$/;"	f	class:King
+King	src/piece.h	/^class King : public Piece {$/;"	c
+Knight	src/piece.h	/^        Knight(Color color) :  Piece(color, knight) {$/;"	f	class:Knight
+Knight	src/piece.h	/^class Knight : public Piece {$/;"	c
+NUM_PIECE	src/chessparam.h	/^#define NUM_PIECE /;"	d
+NUM_POS	src/chessparam.h	/^#define NUM_POS /;"	d
+NUM_SQUARE	src/chessparam.h	/^#define NUM_SQUARE /;"	d
+Pawn	src/piece.h	/^        Pawn(Color color) :  Piece(color, pawn) {$/;"	f	class:Pawn
+Pawn	src/piece.h	/^class Pawn : public Piece {$/;"	c
+Piece	src/piece.h	/^        Piece(Color color, PieceType type) {$/;"	f	class:Piece
+Piece	src/piece.h	/^class Piece$/;"	c
+PieceID	src/game.h	/^    enum PieceID {$/;"	g	class:Game
+PieceType	src/piece.h	/^enum PieceType {$/;"	g
+PosMov	src/position.h	/^	class PosMov$/;"	c	class:Position
+PosMov	src/position.h	/^            PosMov( ) {$/;"	f	class:Position::PosMov
+Position	src/position.cpp	/^Position::Position(void)$/;"	f	class:Position
+Position	src/position.h	/^class Position$/;"	c
+Queen	src/piece.h	/^        Queen(Color color) :  Piece(color, queen) {$/;"	f	class:Queen
+Queen	src/piece.h	/^class Queen : public Piece {$/;"	c
+Rook	src/piece.h	/^        Rook(Color color) :  Piece(color, rook) {$/;"	f	class:Rook
+Rook	src/piece.h	/^class Rook : public Piece {$/;"	c
+_BOARD_H_	src/board.h	/^#define _BOARD_H_$/;"	d
+_GAME_H	src/game.h	/^#define _GAME_H$/;"	d
+_PIECE_H_	src/piece.h	/^#define _PIECE_H_$/;"	d
+_POSITION_H_	src/position.h	/^#define _POSITION_H_$/;"	d
+__dbg_h__	src/dbg.h	/^#define __dbg_h__$/;"	d
+bishop	src/piece.h	/^    bishop = 3,$/;"	e	enum:PieceType
+bishop1	src/game.h	/^        bishop1 = 10,$/;"	e	enum:Game::PieceID
+bishop2	src/game.h	/^        bishop2 = 11,$/;"	e	enum:Game::PieceID
+black	src/piece.h	/^    black = 1$/;"	e	enum:Color
+blacks	src/game.h	/^        Piece* blacks[NUM_PIECE];$/;"	m	class:Game	typeref:typename:Piece * []
+board	src/position.h	/^	Board<Piece*> board;$/;"	m	class:Position	typeref:typename:Board<Piece * >
+captured	src/piece.h	/^        bool captured;$/;"	m	class:Piece	typeref:typename:bool
+check	src/dbg.h	/^#define check(/;"	d
+check_debug	src/dbg.h	/^#define check_debug(/;"	d
+check_mem	src/dbg.h	/^#define check_mem(/;"	d
+chk_empty	src/position.cpp	/^bool Position::chk_empty(int x, int y)$/;"	f	class:Position	typeref:typename:bool
+chk_same_color	src/position.h	/^    bool chk_same_color(int s_x,int s_y,int t_x,int t_y) {$/;"	f	class:Position	typeref:typename:bool
+chk_same_coord	src/position.cpp	/^static bool chk_same_coord(int s_x, int s_y, int t_x, int t_y) {$/;"	f	typeref:typename:bool	file:
+chk_valid_move	src/position.cpp	/^bool Position::chk_valid_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Position	typeref:typename:bool
+clean_errno	src/dbg.h	/^#define clean_errno(/;"	d
+color	src/piece.h	/^        Color color;$/;"	m	class:Piece	typeref:typename:Color
+copy_board	src/position.cpp	/^void Position::copy_board(Position* pos)$/;"	f	class:Position	typeref:typename:void
+create_pieces	src/game.cpp	/^void Game::create_pieces() $/;"	f	class:Game	typeref:typename:void
+debug	src/dbg.h	/^#define debug(/;"	d
+del_all_pieces	src/game.cpp	/^void Game::del_all_pieces(void)$/;"	f	class:Game	typeref:typename:void
+del_all_pos	src/game.cpp	/^void Game::del_all_pos() $/;"	f	class:Game	typeref:typename:void
+eligible_move	src/piece.cpp	/^bool Bishop::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Bishop	typeref:typename:bool
+eligible_move	src/piece.cpp	/^bool King::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:King	typeref:typename:bool
+eligible_move	src/piece.cpp	/^bool Knight::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Knight	typeref:typename:bool
+eligible_move	src/piece.cpp	/^bool Pawn::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Pawn	typeref:typename:bool
+eligible_move	src/piece.cpp	/^bool Queen::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Queen	typeref:typename:bool
+eligible_move	src/piece.cpp	/^bool Rook::eligible_move(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:Rook	typeref:typename:bool
+eval_allposmov	src/position.cpp	/^void Position::eval_allposmov(int s_x, int s_y) {$/;"	f	class:Position	typeref:typename:void
+eval_move	src/position.cpp	/^bool Position::PosMov::eval_move(Position* pos,int s_x,int s_y,int t_x,int t_y)$/;"	f	class:Position::PosMov	typeref:typename:bool
+eval_move	src/position.cpp	/^bool Position::eval_move(int s_x, int s_y, int t_x, int t_y)$/;"	f	class:Position	typeref:typename:bool
+evaled	src/position.h	/^			DblBoardBool evaled;$/;"	m	class:Position::PosMov	typeref:typename:DblBoardBool
+get	src/board.h	/^        T get(int x, int y) {$/;"	f	class:Board	typeref:typename:T
+get	src/board.h	/^        bool get(int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:DblBoardBool	typeref:typename:bool
+get_captured	src/piece.h	/^        bool get_captured() { return captured; }$/;"	f	class:Piece	typeref:typename:bool
+get_color	src/piece.h	/^        Color get_color() {$/;"	f	class:Piece	typeref:typename:Color
+get_color	src/position.cpp	/^Color Position::get_color(int x, int y)$/;"	f	class:Position	typeref:typename:Color
+get_evaled	src/position.h	/^			bool get_evaled(int s_x, int s_y, int t_x, int t_y) $/;"	f	class:Position::PosMov	typeref:typename:bool
+get_moved	src/piece.h	/^        bool get_moved() {$/;"	f	class:Piece	typeref:typename:bool
+get_piece	src/position.cpp	/^Piece* Position::get_piece(int x, int y)$/;"	f	class:Position	typeref:typename:Piece *
+get_posmov	src/position.h	/^            bool get_posmov(int s_x, int s_y, int t_x, int t_y) $/;"	f	class:Position::PosMov	typeref:typename:bool
+get_type	src/piece.h	/^        PieceType get_type() {$/;"	f	class:Piece	typeref:typename:PieceType
+id	src/game.h	/^        int id;$/;"	m	class:Game	typeref:typename:int
+king	src/game.h	/^        king = 15$/;"	e	enum:Game::PieceID
+king	src/piece.h	/^    king = 6$/;"	e	enum:PieceType
+knight	src/piece.h	/^    knight = 2,$/;"	e	enum:PieceType
+knight1	src/game.h	/^        knight1 = 8,$/;"	e	enum:Game::PieceID
+knight2	src/game.h	/^        knight2 = 9,$/;"	e	enum:Game::PieceID
+log_err	src/dbg.h	/^#define log_err(/;"	d
+log_info	src/dbg.h	/^#define log_info(/;"	d
+log_warn	src/dbg.h	/^#define log_warn(/;"	d
+main	src/main.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+move	src/game.cpp	/^bool Game::move(int s_x, int s_y, int t_x, int t_y) $/;"	f	class:Game	typeref:typename:bool
+moved	src/piece.h	/^        bool moved;$/;"	m	class:Piece	typeref:typename:bool
+moves	src/position.h	/^	PosMov moves;$/;"	m	class:Position	typeref:typename:PosMov
+mv_id	src/game.h	/^        int mv_id;$/;"	m	class:Game	typeref:typename:int
+name	src/game.h	/^        std::string name;$/;"	m	class:Game	typeref:typename:std::string
+pawn	src/piece.h	/^    pawn = 1,$/;"	e	enum:PieceType
+pawn1	src/game.h	/^        pawn1 = 0,$/;"	e	enum:Game::PieceID
+pawn2	src/game.h	/^        pawn2 = 1,$/;"	e	enum:Game::PieceID
+pawn3	src/game.h	/^        pawn3 = 2,$/;"	e	enum:Game::PieceID
+pawn4	src/game.h	/^        pawn4 = 3,$/;"	e	enum:Game::PieceID
+pawn5	src/game.h	/^        pawn5 = 4,$/;"	e	enum:Game::PieceID
+pawn6	src/game.h	/^        pawn6 = 5,$/;"	e	enum:Game::PieceID
+pawn7	src/game.h	/^        pawn7 = 6,$/;"	e	enum:Game::PieceID
+pawn8	src/game.h	/^        pawn8 = 7,$/;"	e	enum:Game::PieceID
+place_piece	src/position.cpp	/^void Position::place_piece(Piece* piece, int x, int y)$/;"	f	class:Position	typeref:typename:void
+positions	src/game.h	/^        std::vector<Position*> positions;$/;"	m	class:Game	typeref:typename:std::vector<Position * >
+posmov	src/position.h	/^			DblBoardBool posmov;$/;"	m	class:Position::PosMov	typeref:typename:DblBoardBool
+prn_allposmov	src/game.h	/^        void prn_allposmov(int s_x, int s_y) {$/;"	f	class:Game	typeref:typename:void
+prn_allposmov	src/position.cpp	/^void Position::prn_allposmov(int s_x, int s_y)$/;"	f	class:Position	typeref:typename:void
+prn_board	src/position.cpp	/^void Position::prn_board()$/;"	f	class:Position	typeref:typename:void
+prn_curr_pos	src/game.h	/^        void prn_curr_pos() {$/;"	f	class:Game	typeref:typename:void
+prn_piece	src/piece.cpp	/^std::string Bishop::prn_piece() {$/;"	f	class:Bishop	typeref:typename:std::string
+prn_piece	src/piece.cpp	/^std::string King::prn_piece() {$/;"	f	class:King	typeref:typename:std::string
+prn_piece	src/piece.cpp	/^std::string Knight::prn_piece() {$/;"	f	class:Knight	typeref:typename:std::string
+prn_piece	src/piece.cpp	/^std::string Pawn::prn_piece() {$/;"	f	class:Pawn	typeref:typename:std::string
+prn_piece	src/piece.cpp	/^std::string Queen::prn_piece() {$/;"	f	class:Queen	typeref:typename:std::string
+prn_piece	src/piece.cpp	/^std::string Rook::prn_piece() {$/;"	f	class:Rook	typeref:typename:std::string
+prn_pointers	src/position.cpp	/^void Position::prn_pointers()$/;"	f	class:Position	typeref:typename:void
+queen	src/game.h	/^        queen = 14,$/;"	e	enum:Game::PieceID
+queen	src/piece.h	/^    queen = 5,$/;"	e	enum:PieceType
+rm_piece	src/position.cpp	/^Piece* Position::rm_piece(int x, int y)$/;"	f	class:Position	typeref:typename:Piece *
+rook	src/piece.h	/^    rook = 4,$/;"	e	enum:PieceType
+rook1	src/game.h	/^        rook1 = 12,$/;"	e	enum:Game::PieceID
+rook2	src/game.h	/^        rook2 = 13,$/;"	e	enum:Game::PieceID
+sentinel	src/dbg.h	/^#define sentinel(/;"	d
+set	src/board.h	/^        void set(T item, int x, int y) {$/;"	f	class:Board	typeref:typename:void
+set	src/board.h	/^        void set(bool val, int s_x, int s_y, int t_x, int t_y) {$/;"	f	class:DblBoardBool	typeref:typename:void
+set	src/position.h	/^			void set(bool val, int s_x, int s_y, int t_x, int t_y) $/;"	f	class:Position::PosMov	typeref:typename:void
+set_captured	src/piece.h	/^        void set_captured(bool newval) {$/;"	f	class:Piece	typeref:typename:void
+set_moved	src/piece.h	/^        bool set_moved() {$/;"	f	class:Piece	typeref:typename:bool
+setup	src/position.cpp	/^void Position::setup(void)$/;"	f	class:Position	typeref:typename:void
+setup_board	src/game.cpp	/^void Game::setup_board() $/;"	f	class:Game	typeref:typename:void
+type	src/piece.h	/^        PieceType type;$/;"	m	class:Piece	typeref:typename:PieceType
+valid_coord	src/game.h	/^        bool valid_coord(int x, int y) {$/;"	f	class:Game	typeref:typename:bool
+valid_pos	src/position.cpp	/^bool Position::valid_pos(int x, int y)$/;"	f	class:Position	typeref:typename:bool
+vec	src/board.h	/^        std::vector<T> vec;$/;"	m	class:Board	typeref:typename:std::vector<T>
+vec	src/board.h	/^        std::vector<bool> vec;$/;"	m	class:DblBoardBool	typeref:typename:std::vector<bool>
+white	src/piece.h	/^    white = 0,$/;"	e	enum:Color
+whites	src/game.h	/^        Piece* whites[NUM_PIECE];$/;"	m	class:Game	typeref:typename:Piece * []
+~Bishop	src/piece.h	/^        ~Bishop() {}$/;"	f	class:Bishop
+~Game	src/game.h	/^        ~Game() { $/;"	f	class:Game
+~King	src/piece.h	/^        ~King() {}$/;"	f	class:King
+~Knight	src/piece.h	/^        ~Knight() {}$/;"	f	class:Knight
+~Pawn	src/piece.h	/^        ~Pawn() {}$/;"	f	class:Pawn
+~Piece	src/piece.h	/^        virtual ~Piece() {};$/;"	f	class:Piece
+~PosMov	src/position.h	/^            ~PosMov() { }$/;"	f	class:Position::PosMov
+~Position	src/position.h	/^	~Position() { } $/;"	f	class:Position
+~Queen	src/piece.h	/^        ~Queen() {}$/;"	f	class:Queen
+~Rook	src/piece.h	/^        ~Rook() {}$/;"	f	class:Rook

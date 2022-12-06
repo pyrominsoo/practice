@@ -1,0 +1,49 @@
+#include <assert.h>
+#include "dbg.h"
+#include "board.h"
+
+
+
+
+void PMList::add(int x, int y) {
+    mv_vec.push_back( std::make_pair(x, y) );
+}
+
+bool PMList::find(int x, int y) {
+    for (auto it = mv_vec.begin(); it != mv_vec.end(); it++) {
+        if (it->first == x && it->second == y) {
+            return true;
+        }
+    }
+    return false;
+}
+
+
+// remove the cooridnate in the list. return true if found and removed.
+bool PMList::erase(int x, int y) {
+    for (auto it = mv_vec.begin(); it != mv_vec.end(); it++) {
+        if (it->first == x && it->second == y) {
+            mv_vec.erase(it);
+            return true;
+        }
+    }
+    return false;
+}
+
+bool PMList::erase( std::pair<int,int> target ) {
+    for (auto it = mv_vec.begin(); it != mv_vec.end(); it++) {
+        if (*it == target) {
+            mv_vec.erase(it);
+            return true;
+        }
+    }
+    return false;
+}
+
+
+std::pair<int,int> &PMList::operator[](int i) {
+    return mv_vec[i];
+}
+
+
+
