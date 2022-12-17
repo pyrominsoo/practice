@@ -5,6 +5,8 @@ Easy
 6.4K
 669
 Companies
+
+This is a test
 Given two binary strings a and b, return their sum as a binary string.
 
 
