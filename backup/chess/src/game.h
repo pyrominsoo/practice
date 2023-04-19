@@ -41,10 +41,10 @@ class Game
             mv_id = 0;
         }
 
-        ~Game() { 
+        ~Game() {
             del_all_pos();
             del_all_pieces();
-        } 
+        }
 
         void prn_curr_pos() {
             debug("positions.size(): %d",(int)positions.size());
@@ -62,18 +62,18 @@ class Game
 
         void prn_allposmov(int s_x, int s_y) {
             positions.at(mv_id)->eval_allposmov(s_x,s_y);
-            positions.at(mv_id)->prn_allposmov(s_x,s_y);   
+            positions.at(mv_id)->prn_allposmov(s_x,s_y);
         }
     private:
         int id;
         std::string name;
-        // holds list of pieces. 
+        // holds list of pieces.
         // Refer to PieceID for the location of each piece
         Piece* whites[NUM_PIECE];
         Piece* blacks[NUM_PIECE];
         std::vector<Position*> positions;
         int mv_id;
-        
+
         void create_pieces();
         void setup_board();
         void del_all_pos();
