@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/mkim/practice/curr/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/hello.dir/src/main.cpp.o -c /home/mkim/practice/curr/src/main.cpp",
+  "file": "/home/mkim/practice/curr/src/main.cpp"
+}
+]

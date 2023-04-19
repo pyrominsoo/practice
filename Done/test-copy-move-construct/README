@@ -1,0 +1,3 @@
+Example created to learn how move and copy constructors are called.
+Move constructors are called when an object is created from a r-value object.
+Copy constructors are called with l-value and in the absence of move constructor.
