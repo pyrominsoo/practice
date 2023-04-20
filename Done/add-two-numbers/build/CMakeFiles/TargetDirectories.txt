@@ -1,0 +1,3 @@
+/home/mkim/practice/curr/build/CMakeFiles/rebuild_cache.dir
+/home/mkim/practice/curr/build/CMakeFiles/edit_cache.dir
+/home/mkim/practice/curr/build/CMakeFiles/prog.dir

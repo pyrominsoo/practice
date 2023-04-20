@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mkim/practice/curr/src/debug.h
+iostream
+-
+
+/home/mkim/practice/curr/src/list.h
+vector
+-
+iostream
+-
+
+/home/mkim/practice/curr/src/main.cpp
+iostream
+-
+sstream
+-
+list.h
+/home/mkim/practice/curr/src/list.h
+solution.h
+/home/mkim/practice/curr/src/solution.h
+vector
+-
+
+/home/mkim/practice/curr/src/solution.h
+debug.h
+/home/mkim/practice/curr/src/debug.h
+list.h
+/home/mkim/practice/curr/src/list.h
+

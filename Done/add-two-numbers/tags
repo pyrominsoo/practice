@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ListNode	src/list.h	/^    ListNode() : val(0), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	src/list.h	/^    ListNode(int x) : val(x), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	src/list.h	/^    ListNode(int x, ListNode *next) : val(x), next(next) {}$/;"	f	struct:ListNode
+ListNode	src/list.h	/^struct ListNode {$/;"	s
+PRACTICE_LIST_H	src/list.h	2;"	d
+PRACTICE_SOLUTION_H	src/solution.h	2;"	d
+Solution	src/solution.h	/^class Solution {$/;"	c
+addTwoNumbers	src/solution.h	/^    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {$/;"	f	class:Solution
+debug	src/debug.h	3;"	d
+debug	src/debug.h	7;"	d
+delog	src/debug.h	2;"	d
+delog	src/debug.h	6;"	d
+logger	src/debug.h	/^void logger(std::string str, std::string vars, Args&&... values) {$/;"	f
+main	src/main.cpp	/^int main(void) {$/;"	f
+next	src/list.h	/^    ListNode *next;$/;"	m	struct:ListNode
+val	src/list.h	/^    int val;$/;"	m	struct:ListNode
